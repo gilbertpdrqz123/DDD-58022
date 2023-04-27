@@ -3,7 +3,7 @@ CREATE DATABASE ABC_COMPUTER;
 USE ABC_COMPUTER;
 
 CREATE TABLE Computer (
-   Serial Number INT PRIMARY KEY,
+   SerialNumber INT PRIMARY KEY,
    Model VARCHAR(50),
    Processor VARCHAR(50),
    ProcessorSpeed FLOAT,
